@@ -198,6 +198,13 @@ h1 {
   line-height: 1.35;
 }
 
+h44 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: italic;
+  /* font-family: 'Papyrus'; */
+  /* font-weight: bold; */
+}
 h4 {
   font-size: 2.4rem;
   font-weight: 500;
@@ -504,8 +511,8 @@ h4 {
 
 .testimonial__photo {
   grid-row: 1 / span 2;
-  width: 6.5rem;
-  border-radius: 50%;
+  width: 40rem;
+  /* border-radius: 50%; */
 }
 
 .testimonial__name {
@@ -671,4 +678,9 @@ h4 {
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.flex--direction--row {
+  flex-direction: row;
+  /* background-color: #222; */
 }
