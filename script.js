@@ -17,10 +17,9 @@ const nav = document.querySelector('.nav');
 const resumeBtn = document.querySelector('.btn__resume');
 
 resumeBtn.addEventListener('click', function () {
-  console.log('Downloading...');
   window
     .open(
-      'https://github.com/heriaond/devPortfolio/blob/main/img/card-lazy.jpg',
+      'https://github.com/heriaond/devPortfolio/raw/main/resume/Ondrej_Herian_resume_EN.pdf',
       '_blank'
     )
     .focus();
