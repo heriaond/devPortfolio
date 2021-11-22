@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio | Ondrej Herian</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -28,9 +29,8 @@
             <a class="nav__link" href="#section--3">Hobbies</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--show-modal" href="#"
-              >Download resume</a
-            >
+            <!-- <a class="nav__link nav__link--btn" href="#">Download resume</a> -->
+            <button class="btn__resume">Download resume</button>
           </li>
         </ul>
       </nav>
@@ -281,11 +281,11 @@
     <section class="section section--sign-up">
       <div class="section__title">
         <h3 class="section__header">
-          The best day to join Bankist was one year ago. The second best is
-          today!
+          You Don’t Have To Be Great To Start, But You Have To Start To Be
+          Great.
         </h3>
       </div>
-      <button class="btn btn--show-modal">Open your free account today!</button>
+      <button class="btn btn--show-modal">Contact me</button>
     </section>
 
     <footer class="footer">
@@ -327,22 +327,19 @@
 
     <div class="modal hidden">
       <button class="btn--close-modal">&times;</button>
-      <h2 class="modal__header">
-        Open your bank account <br />
-        in just <span class="highlight">5 minutes</span>
-      </h2>
+      <h2 class="modal__header">Send me a message (in maintaince)<br /></h2>
       <form class="modal__form">
-        <label>First Name</label>
+        <label>Name</label>
         <input type="text" />
-        <label>Last Name</label>
+        <label>Text</label>
         <input type="text" />
-        <label>Email Address</label>
-        <input type="email" />
-        <button class="btn">Next step &rarr;</button>
+        <!-- <label>Email Address</label>
+        <input type="email" /> -->
+        <button class="btn">Send</button>
       </form>
     </div>
     <div class="overlay hidden"></div>
 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>

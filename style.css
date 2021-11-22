@@ -145,6 +145,15 @@ img {
   margin-left: 4rem;
 }
 
+.btn__resume {
+  font-size: 1.7rem;
+  background-color: var(--color-primary);
+  border-radius: 3rem;
+  font-weight: 400;
+  padding: 0.8rem 2.5rem;
+  border-color: var(--color-primary);
+}
+
 .nav__link:link,
 .nav__link:visited {
   font-size: 1.7rem;

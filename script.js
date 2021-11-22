@@ -14,6 +14,17 @@ const tabsButtons = document.querySelectorAll('.operations__tab');
 const tabsContent = document.querySelectorAll('.operations__content');
 
 const nav = document.querySelector('.nav');
+const resumeBtn = document.querySelector('.btn__resume');
+
+resumeBtn.addEventListener('click', function () {
+  console.log('Downloading...');
+  window
+    .open(
+      'https://github.com/heriaond/devPortfolio/blob/main/img/card-lazy.jpg',
+      '_blank'
+    )
+    .focus();
+});
 
 const openModal = function (e) {
   e.preventDefault(); // if this would not be there, then href='#' on btn--show-modal would move whole page up to top.
